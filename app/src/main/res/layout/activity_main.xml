@@ -53,12 +53,26 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:text="Luu thong tin" />
-        <Button
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/button_dangnhap"
-            android:text="Dang nhap"
-            android:layout_gravity="center"/>
+            android:orientation="horizontal"
+           android:layout_marginLeft="30dp">
+            <Button
+                android:id="@+id/button_dangnhap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dang nhap" />
+
+            <Button
+                android:id="@+id/button_thoat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Thoat" />
+        </LinearLayout>
+
     </LinearLayout>
 
 </LinearLayout>
