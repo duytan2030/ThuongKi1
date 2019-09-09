@@ -41,12 +41,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-//    public void showDialog(){
-//        dialog = new Dialog(MainActivity.this);
-//        dialog.setTitle("Thangcode.com");
-//        dialog.setContentView(R.layout.dialog);
-//        dialog.show();
-//    }
     public void showAlertDialog(){
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("Thong Bao");
